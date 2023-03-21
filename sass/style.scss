@@ -72,13 +72,24 @@ header .container {
 header h2 {
     font-size: 50px;
     margin: 0;
+    font-family: $font-family-four;
+    color: $color-four;
 }
 
 header h1 {
-    font-size: 80px;
+    font-size: 90px;
     margin: 0;
+    font-family: $font-family-two;
+    color: $color-four;
 }
 
 header button {
-    margin-top: 40px;
+    margin-top: 20px;
+    background: $color-one;
+    font-family: $font-family-two;
+    font-size: 20px;
+    color: $color-four;
+    border: none;
+    border-radius: 5px;
+    padding: 25px 60px 25px 60px;
 }
