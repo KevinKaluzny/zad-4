@@ -1,3 +1,48 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Lora", sans-serif;
+  color: #718093;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  display: flex;
+}
+
+/* Navigation */
+nav .container {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.brand {
+  font-family: "Playfair Display", serif;
+  color: #fbc531;
+  font-size: 30px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  color: #f5f6fa;
+  font-size: 18px;
+  margin: 0 0 0 40px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBWUEsV0FBQTtBQUVBO0VBQ0ksc0JBQUE7QUNYSjs7QURjQTtFQUNJLFNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSwrQkFBQTtFQUNBLGNBbkJVO0FDUWQ7O0FEY0E7RUFDSSxhQUFBO0FDWEo7O0FEY0EsZUFBQTtBQUVBO0VBQ0ksOEJBQUE7RUFDQSxnQkFBQTtBQ1pKOztBRGVBO0VBQ0ksc0NBL0JjO0VBZ0NkLGNBckNRO0VBc0NSLGVBQUE7QUNaSjs7QURlQTtFQUNJLHFCQUFBO0VBQ0EscUJBQUE7QUNaSjs7QURlQTtFQUNJLHFCQUFBO0FDWko7O0FEZUE7RUFDSSxxQkFBQTtFQUNBLGlDQTlDYztFQStDZCxjQWxEUztFQW1EVCxlQUFBO0VBQ0Esa0JBQUE7QUNaSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
