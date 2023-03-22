@@ -22,6 +22,7 @@ body {
     line-height: 1.7;
     font-family: 'Lora', sans-serif;
     color: $color-three;
+    position: relative;
 }
 
 .container {
@@ -30,9 +31,14 @@ body {
 
 /* Navigation */
 
-nav .container {
+nav {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
     justify-content: space-between;
-    margin-top: 50px;
 }
 
 .brand {
@@ -61,12 +67,14 @@ nav li a {
 /* Page header */
 
 header {
-    margin-top: 200px;
+    background-image: url("../images/pexels-pixabay-163185.jpg");
 }
 
 header .container {
     display: block;
     text-align: center;
+    position: relative;
+    padding: 300px 0 200px 0;
 }
 
 header h2 {
