@@ -4,10 +4,11 @@ $color-one: #fbc531;
 $color-two: #2f3640;
 $color-three: #718093;
 $color-four: #f5f6fa;
+$color-five: #dcdde1;
 
 $font-family-one: 'Playfair Display', serif;
 $font-family-two: 'Ubuntu', sans-serif;
-$font-family-tree: 'Lora', sans-serif;
+$font-family-three: 'Lora', sans-serif;
 $font-family-four: 'Bitter', sans-serif;
 
 /* Global */
@@ -25,6 +26,10 @@ body {
     position: relative;
 }
 
+section {
+    padding: 100px;
+}
+
 h1, h2, h3, nav li a {
     font-family: $font-family-two;
 }
@@ -35,8 +40,13 @@ h2 {
 }
 
 h2 + p {
+    margin: 0 0 50px 0;
     font-family: $font-family-four;
-    margin: 0;
+    font-size: 20px;
+}
+    
+h3 + p {
+    font-family: $font-family-four;
     font-size: 20px;
 }
 
@@ -124,14 +134,6 @@ header button {
     padding-top: 130px;
 }
 
-.service ul {
-    list-style-type: none;
-}
-
-.service li {
-    display: inline-block;
-}
-
 .service i {
     border: solid $color-one;
     border-radius: 50%;
@@ -143,4 +145,37 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Portfolio */
+
+.portfolio {
+    background: $color-five;
+}
+
+.portfolio .photocontainer {
+    padding: 0
+}
+
+.portfolio img {
+    width: 350px;
+    height: 350px;
+    display: block;
+}
+
+.portfolio .description {
+    background: $color-four;
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio h3, .portfolio .description p {
+    margin: 0;
+}
+
+.portfolio .row {
+    margin-bottom: 50px;
 }
