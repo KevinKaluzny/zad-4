@@ -40,6 +40,10 @@ h2 + p {
     font-size: 20px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 .container {
     text-align: center;
 }
@@ -126,4 +130,17 @@ header button {
 
 .service li {
     display: inline-block;
+}
+
+.service i {
+    border: solid $color-one;
+    border-radius: 50%;
+    padding: 15px;
+    color: $color-one;
+    font-size: 45px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
