@@ -137,7 +137,6 @@ header button {
 .service i {
     border: solid $color-one;
     border-radius: 50%;
-    padding: 15px;
     color: $color-one;
     font-size: 45px;
     width: 90px;
@@ -178,4 +177,46 @@ header button {
 
 .portfolio .row {
     margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer {
+    padding: 65px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer p, footer ul {
+    display: inline;
+    margin-right: 120px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.rounded-button {
+    background-color: $color-five;
+    color: $color-four;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 3px;
 }
