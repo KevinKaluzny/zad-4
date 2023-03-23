@@ -155,20 +155,24 @@ header button {
     background: $color-five;
 }
 
-.portfolio .photocontainer {
-    padding: 0
+.portfolio .box {
+    margin-bottom: 50px;
 }
 
 .portfolio img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
     display: block;
+    margin: auto;
 }
 
 .portfolio .description {
     background: $color-four;
     text-align: center;
     padding: 20px;
+    width: 300px;
+    margin: auto;
 }
 
 .portfolio h3, .portfolio .description p {
@@ -217,6 +221,20 @@ footer a {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 22px;
     margin: 3px;
+    font-size: 0;
+}
+
+footer i {
+    font-size: 22px;
+}
+
+/* Media */
+
+@media (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
 }
